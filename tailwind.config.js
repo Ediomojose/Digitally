@@ -16,6 +16,7 @@ export default {
       },
       colors: {
         "natural-orchid": "#B65AB6",
+        'natural-light-orchid':'#F2E5F2',
         "natural-lemon": "#8EC641",
         "natural-soft-cheddar": "#E4DE5C",
         "natural-dark-purple": "#200020",
