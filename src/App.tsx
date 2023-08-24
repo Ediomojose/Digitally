@@ -11,7 +11,7 @@ function App() {
       <Logo/>
       <Button value="Login"/>
       <WatchVideoBtn value='Watch Video'/>
-      <Form/>
+      <Form cols={20} rows={8}/>
     </>
   )
 }
