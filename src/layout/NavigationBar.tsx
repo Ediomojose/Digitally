@@ -12,7 +12,7 @@ const NavigationBar = () => {
         <Logo />
         <nav>
           <ul
-            className={`w-full h-full absolute left-0 top-[70px] z-[2] flex flex-col items-center justify-center bg-natural-light-orchid gap-10 text-3xl transition-all ease-in duration-500 md:flex md:flex-row md:gap-8 md-z-auto md:text-lg md:static ${
+            className={`w-full h-2/5  absolute inset-y-6 left-15  top-[84px] z-[2] flex flex-col items-left justify-center  gap-4 p-6 text-lg bg-natural-orchid  text-natural-white font-interExtraBold transition-all ease-in duration-500 md:text-natural-dark-purple md:bg-natural-light-orchid md:flex md:flex-row md:gap-8 md-z-auto md:text-lg md:static md:p-0 ${
               navBar ? "block" : "hidden"
             }`}
           >
