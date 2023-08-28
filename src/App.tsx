@@ -4,6 +4,7 @@ import Logo from "./components/ui/Logo"
 import WatchVideoBtn from "./components/ui/WatchVideoBtn"
 import Footer from "./layout/Footer"
 import NavigationBar from "./layout/NavigationBar"
+import HeroSection from "./pages/Home/HeroSection"
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
   return (
     <>
     <NavigationBar/>
-    <Footer/>
+    <HeroSection/>
       {/* <Button value="Login"/>
       <WatchVideoBtn value='Watch Video'/>
       <Form cols={20} rows={8}/> */}

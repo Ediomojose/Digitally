@@ -11,7 +11,7 @@ const WatchVideoBtn = ({ value }: Props) => {
       <button
         type="button"
         title="Watch Video"
-        className="rounded-md bg--light--orchid py-2 px-2 font-interEgulae text-natural-black text-sm flex items-center gap-2"
+        className="rounded-md bg--light--orchid py-2 px-2 font-interBlack text-natural-dark-purple text-sm flex items-center gap-2"
       >
         <img src={VideoIllus} alt="Video image" className="w-6" />
         {value}

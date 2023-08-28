@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-natural-dark-purple text-natural-light-grey px-6 py-12 flex flex-col">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-5 ">
-          <div className="flex flex-col gap-7">
+        <div className="grid grid-cols-1 gap-2 justify-center md:grid-cols-5">
+          <div className="flex flex-col gap-5">
             <Logo />
             <p>
               Digitally a brand that helps business achieve their goal by
