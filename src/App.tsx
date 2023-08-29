@@ -5,6 +5,7 @@ import WatchVideoBtn from "./components/ui/WatchVideoBtn"
 import Footer from "./layout/Footer"
 import NavigationBar from "./layout/NavigationBar"
 import HeroSection from "./pages/Home/HeroSection"
+import ServiceFeatures from "./pages/Home/ServiceFeatures"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
     <NavigationBar/>
     <HeroSection/>
+    <ServiceFeatures/>
       {/* <Button value="Login"/>
       <WatchVideoBtn value='Watch Video'/>
       <Form cols={20} rows={8}/> */}

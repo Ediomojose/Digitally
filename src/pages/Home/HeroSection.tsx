@@ -15,7 +15,7 @@ import TeamCard from "../../components/ui/TeamCard";
 const HeroSection = () => {
   return (
     <>
-      <main className="bg-natural-light-orchid grid grid-cols-1 absolute gap-10 justify-center items-center pt-6 pb-0 px-8 md:grid-cols-2 md:gap-20 md:py-6 xl:px-20 2xl:px-40 2xl:pb-0">
+      <main className="bg-natural-light-orchid grid grid-cols-1 relative gap-10 justify-center items-center pt-6 pb-0 px-8 md:grid-cols-2 md:gap-20 md:py-6 xl:px-20 2xl:px-40 2xl:pb-0">
         <div className="relative">
           <h1 className="text-4xl font-bold text-natural-dark-purple mb-4 xl:text-7xl 2xl:text-8xl">
             We Provide Creative Ideas For Your Brands.
@@ -25,7 +25,7 @@ const HeroSection = () => {
             to grow your business
           </p>
           <div className="flex gap-4">
-            <Button />
+            <Button value="Get Started"/>
             <WatchVideoBtn value="Watch Video" />
           </div>
           <div className="absolute left-0 top-0 w-3/4">
