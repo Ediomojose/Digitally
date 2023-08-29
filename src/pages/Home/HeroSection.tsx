@@ -2,7 +2,6 @@ import React from "react";
 import Button from "../../components/ui/Button";
 import WatchVideoBtn from "../../components/ui/WatchVideoBtn";
 import HeroImage from "/src/assets/Images/heroimage.png";
-import UsersIcon from "/src/assets/Images/users.png";
 import SendIcon from "/src/assets/Images/send.png";
 import MailIcon from "/src/assets/Images/mail.png";
 import GroupShapes from "/src/assets/Images/Group 73.png";
@@ -11,6 +10,7 @@ import RectangleShape2 from "/src/assets/Images/Rectangle 113.png";
 import VectorShape from "/src/assets/Images/Vector 3.png";
 import VectorShape2 from "/src/assets/Images/Vector 2.png";
 import BrandTrust from "../../components/ui/BrandTrust";
+import TeamCard from "../../components/ui/TeamCard";
 
 const HeroSection = () => {
   return (
@@ -43,6 +43,7 @@ const HeroSection = () => {
             alt="Image of a woman"
             className="relative z-40"
           />
+          <TeamCard/>
           <img
             src={GroupShapes}
             alt="Shapes"

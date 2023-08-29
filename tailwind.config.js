@@ -21,6 +21,7 @@ export default {
         "natural-soft-cheddar": "#E4DE5C",
         "natural-dark-purple": "#200020",
         "natural-white": "#FFFFFF",
+        "natural-grey":"#DDDDDD",
         "natural-light-grey":"#F3F3F3",
       },
     },
