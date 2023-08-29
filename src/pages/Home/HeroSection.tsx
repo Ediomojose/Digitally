@@ -15,12 +15,12 @@ import TeamCard from "../../components/ui/TeamCard";
 const HeroSection = () => {
   return (
     <>
-      <main className="bg-natural-light-orchid grid grid-cols-2 absolute gap-x-20 justify-center items-center py-6 px-8">
+      <main className="bg-natural-light-orchid grid grid-cols-1 absolute gap-10 justify-center items-center pt-6 pb-0 px-8 md:grid-cols-2 md:gap-20 md:py-6 xl:px-20 2xl:px-40 2xl:pb-0">
         <div className="relative">
-          <h1 className="text-4xl font-bold text-natural-dark-purple mb-4">
+          <h1 className="text-4xl font-bold text-natural-dark-purple mb-4 xl:text-7xl 2xl:text-8xl">
             We Provide Creative Ideas For Your Brands.
           </h1>
-          <p className="text-natural-dark-purple mb-4">
+          <p className="text-natural-dark-purple mb-4 xl:text-xl 2xl:text-2xl">
             Our goal is to achieve your goal by providing user-centric support
             to grow your business
           </p>
@@ -41,13 +41,13 @@ const HeroSection = () => {
           <img
             src={HeroImage}
             alt="Image of a woman"
-            className="relative z-40"
+            className="relative z-40 w-full"
           />
           <TeamCard/>
           <img
             src={GroupShapes}
             alt="Shapes"
-            className="absolute top-20 right-8 w-28 z-0"
+            className="absolute top-20 right-0 z-0 md:w-28 md:right-8 lg:w-48 lg:top-28 2xl:w-60 2xl:top-52"
           />
           <img
             src={SendIcon}
