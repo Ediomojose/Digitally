@@ -1,5 +1,7 @@
 import React from "react";
 import CodeIcon from "/src/assets/Images/noun-code.png";
+import SeoIcon from "/src/assets/Images/noun-seo.png";
+import UiuxIcon from "/src/assets/Images/noun-ui-ux.png";
 
 const ServiceFeatures = () => {
   return (
@@ -17,34 +19,60 @@ const ServiceFeatures = () => {
             user-centric support that help grow your business.
           </p>
         </section>
-        <section className="py-10 grid grid-cols-1 md:grid-cols-3 md:gap-7">
-          <div className="flex flex-col gap-4 px-4 py-8 items-start justify-start">
+        <section className="py-10 grid grid-cols-1 md:grid-cols-3 md:gap-7 lg:py-20 lg:gap-16 lg:px-16">
+          <div className="flex flex-col gap-4 px-4 py-8 items-start justify-start group hover:shadow-lg focus:shadow-lg rounded-lg lg:px-8 ">
             <div className="bg-natural-light-lemon w-10 rounded-lg">
-              <img src={CodeIcon} alt="Code icon"/>
+              <img src={CodeIcon} alt="Code icon" />
             </div>
             <p className="text-lg font-bold">Web Development</p>
-            <p className="text-md">With the use of HTML, CSS and JavaScript we provide...</p>
-            <button type="button" title="Learn More">Learn More</button>
+            <p className="text-md">
+              With the use of HTML, CSS and JavaScript we provide...
+            </p>
+            <button
+              type="button"
+              title="Learn More"
+              className="text-natural-orchid px-4 py-2 rounded-lg group-hover:bg-natural-orchid group-hover:shadow-md group-hover:text-natural-white group-focus:bg-natural-orchid group-focus:shadow-md group-focus:text-natural-white"
+            >
+              Learn More &rarr;
+            </button>
           </div>
 
-          <div className="flex flex-col gap-4">
-            <div className="bg-natural-light-lemon w-10 rounded-lg">
-              <img src={CodeIcon} alt="Code icon"/>
+          <div className="flex flex-col gap-4 px-4 py-8 items-start justify-start group hover:shadow-lg focus:shadow-lg rounded-lg lg:px-8">
+            <div className="bg-natural-light-orange w-10 rounded-lg">
+              <img src={UiuxIcon} alt="Code icon" />
             </div>
-            <p>Web Development</p>
-            <p>With the use of HTML, CSS and JavaScript we provide...</p>
-            <button type="button" title="Learn More">Learn More</button>
+            <p className="text-lg font-bold">UI/UX Design</p>
+            <p className="text-md">
+              Creating minimalistic design to suit your user goals....
+            </p>
+            <button
+              type="button"
+              title="Learn More"
+              className="text-natural-orchid px-4 py-2 rounded-lg group-hover:bg-natural-orchid group-hover:shadow-md group-hover:text-natural-white group-focus:bg-natural-orchid group-focus:shadow-md group-focus:text-natural-white"
+            >
+              Learn More &rarr;
+            </button>
           </div>
 
-          <div className="flex flex-col gap-4">
-            <div className="bg-natural-light-lemon w-10 rounded-lg">
-              <img src={CodeIcon} alt="Code icon"/>
+          <div className="flex flex-col gap-4 px-4 py-8 items-start justify-start group hover:shadow-lg focus:shadow-lg rounded-lg lg:px-8">
+            <div className="bg-natural-light-purple w-10 rounded-lg">
+              <img src={SeoIcon} alt="Code icon" />
             </div>
-            <p>Web Development</p>
-            <p>With the use of HTML, CSS and JavaScript we provide...</p>
-            <button type="button" title="Learn More">Learn More</button>
+            <p className="text-lg font-bold">SEO Optimization</p>
+            <p className="text-md">
+              Find traffic-driving keywords, building quality backlinks...
+            </p>
+            <button
+              type="button"
+              title="Learn More"
+              className="text-natural-orchid px-4 py-2 rounded-lg group-hover:bg-natural-orchid group-hover:shadow-md group-hover:text-natural-white group-focus:bg-natural-orchid group-focus:shadow-md group-focus:text-natural-white"
+            >
+              Learn More &rarr;
+            </button>
           </div>
         </section>
+        
+        <a href="http://" target="_blank" rel="noopener noreferrer" className="text-natural-orchid flex justify-end lg:px-16">More of our services &rarr;</a>
       </article>
     </>
   );
