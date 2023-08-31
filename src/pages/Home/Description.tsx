@@ -9,7 +9,7 @@ import ArrowRight from "/src/assets/Images/Arrow 2.png";
 const Description = () => {
   return (
     <>
-      <aside className="grid grid-cols-1 md:grid-cols-2 xl:px-20">
+      <aside className="grid grid-cols-1 md:grid-cols-2 xl:px-20 2xl:px-96">
         <section className="px-4 md:pl-8 md:relative md:top-16">
           <h1 className="text-3xl font-bold text-natural-dark-purple pb-4 xl:text-5xl">
             Working together to provide excellence.
